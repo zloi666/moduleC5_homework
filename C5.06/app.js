@@ -24,7 +24,7 @@ function displayData(data) {
     const card = `
         <div class="card">
             <br/>
-            <img src="${data}" width=600px/>
+            <img src="${data}"/>
         </div>
     `
     resultBlock.innerHTML = card
